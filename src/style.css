@@ -6,9 +6,12 @@
     height: 100vh;
 }
 .hangman {
+
     margin-top: 50px;
     display:flex;
     justify-content: space-evenly;
+    position: relative;
+    
 }
 .hangman img {
     width: 400px;
@@ -27,6 +30,17 @@
     color: white;
     
 }
+
+.word {
+    font-size: 50px;
+    position: absolute;
+    bottom:20px;
+    right: 20px;
+
+}
+
+
+
 .keyboard{
     display:flex;
     flex-wrap: wrap;
@@ -96,3 +110,4 @@
     height: 40px;
     width: 70px;
 }
+

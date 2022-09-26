@@ -41,12 +41,17 @@
 
 }
 
-.word p {
+.wordLetters {
     margin-right: 10px;
 }
 
+.lose {
+    color:red;
+}
 
-
+.win{
+    color:rgba(29, 168, 29, 0.74)
+}
 .keyboard{
     display:flex;
     flex-wrap: wrap;
@@ -104,7 +109,22 @@
     height: 35px;
 }
 
-.answer button {
+.button-disable{
+    font-size: 17px;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #79818a;
+    background-color: #9faab5;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;
+    pointer-events: none;
+}
+
+.button-enable{
     font-size: 17px;
     font-weight: 1000;
     display: flex;
@@ -117,4 +137,3 @@
     height: 40px;
     width: 70px;
 }
-
